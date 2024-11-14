@@ -1,0 +1,368 @@
+{
+  // These tasks will run in order when initializing your CodeSandbox project.
+  "setupTasks": [
+    {
+      "command": "npm install",
+      "name": "Install Dependencies"
+    }
+  ],
+
+  // These tasks can be run from CodeSandbox. Running one will open a log in the app.
+  "tasks": {
+    "build": {
+      "name": "build",
+      "command": "npm run build",
+      "runAtStart": false
+    },
+    "build:clean": {
+      "name": "build:clean",
+      "command": "npm run build:clean",
+      "runAtStart": false
+    },
+    "build:server": {
+      "name": "build:server",
+      "command": "npm run build:server",
+      "runAtStart": false
+    },
+    "build:updates": {
+      "name": "build:updates",
+      "command": "npm run build:updates",
+      "runAtStart": false
+    },
+    "clean": {
+      "name": "clean",
+      "command": "npm run clean",
+      "runAtStart": false
+    },
+    "commit": {
+      "name": "commit",
+      "command": "npm run commit",
+      "runAtStart": false
+    },
+    "compile:email": {
+      "name": "compile:email",
+      "command": "npm run compile:email",
+      "runAtStart": false
+    },
+    "compile:email:watch": {
+      "name": "compile:email:watch",
+      "command": "npm run compile:email:watch",
+      "runAtStart": false
+    },
+    "cron:10mn": {
+      "name": "cron:10mn",
+      "command": "npm run cron:10mn",
+      "runAtStart": false
+    },
+    "cron:daily": {
+      "name": "cron:daily",
+      "command": "npm run cron:daily",
+      "runAtStart": false
+    },
+    "cron:hourly": {
+      "name": "cron:hourly",
+      "command": "npm run cron:hourly",
+      "runAtStart": false
+    },
+    "cron:monthly": {
+      "name": "cron:monthly",
+      "command": "npm run cron:monthly",
+      "runAtStart": false
+    },
+    "cron:weekly": {
+      "name": "cron:weekly",
+      "command": "npm run cron:weekly",
+      "runAtStart": false
+    },
+    "cron:yearly": {
+      "name": "cron:yearly",
+      "command": "npm run cron:yearly",
+      "runAtStart": false
+    },
+    "db:clean": {
+      "name": "db:clean",
+      "command": "npm run db:clean",
+      "runAtStart": false
+    },
+    "db:copy:prod": {
+      "name": "db:copy:prod",
+      "command": "npm run db:copy:prod",
+      "runAtStart": false
+    },
+    "db:copy:prod:staging": {
+      "name": "db:copy:prod:staging",
+      "command": "npm run db:copy:prod:staging",
+      "runAtStart": false
+    },
+    "db:copy:prod:staging-dev": {
+      "name": "db:copy:prod:staging-dev",
+      "command": "npm run db:copy:prod:staging-dev",
+      "runAtStart": false
+    },
+    "db:copy:staging": {
+      "name": "db:copy:staging",
+      "command": "npm run db:copy:staging",
+      "runAtStart": false
+    },
+    "db:dump:dev": {
+      "name": "db:dump:dev",
+      "command": "npm run db:dump:dev",
+      "runAtStart": false
+    },
+    "db:migrate": {
+      "name": "db:migrate",
+      "command": "npm run db:migrate",
+      "runAtStart": false
+    },
+    "db:migrate:undo": {
+      "name": "db:migrate:undo",
+      "command": "npm run db:migrate:undo",
+      "runAtStart": false
+    },
+    "db:migration:create": {
+      "name": "db:migration:create",
+      "command": "npm run db:migration:create",
+      "runAtStart": false
+    },
+    "db:migration:archive": {
+      "name": "db:migration:archive",
+      "command": "npm run db:migration:archive",
+      "runAtStart": false
+    },
+    "db:restore": {
+      "name": "db:restore",
+      "command": "npm run db:restore",
+      "runAtStart": false
+    },
+    "db:restore:e2e": {
+      "name": "db:restore:e2e",
+      "command": "npm run db:restore:e2e",
+      "runAtStart": false
+    },
+    "db:restore:test": {
+      "name": "db:restore:test",
+      "command": "npm run db:restore:test",
+      "runAtStart": false
+    },
+    "db:sanitize": {
+      "name": "db:sanitize",
+      "command": "npm run db:sanitize",
+      "runAtStart": false
+    },
+    "db:sanitize-collective-tags": {
+      "name": "db:sanitize-collective-tags",
+      "command": "npm run db:sanitize-collective-tags",
+      "runAtStart": false
+    },
+    "db:seed": {
+      "name": "db:seed",
+      "command": "npm run db:seed",
+      "runAtStart": false
+    },
+    "db:setup": {
+      "name": "db:setup",
+      "command": "npm run db:setup",
+      "runAtStart": false
+    },
+    "depcheck": {
+      "name": "depcheck",
+      "command": "npm run depcheck",
+      "runAtStart": false
+    },
+    "deploy:production": {
+      "name": "deploy:production",
+      "command": "npm run deploy:production",
+      "runAtStart": false
+    },
+    "deploy:staging": {
+      "name": "deploy:staging",
+      "command": "npm run deploy:staging",
+      "runAtStart": false
+    },
+    "dev": {
+      "name": "dev",
+      "command": "npm run dev",
+      "runAtStart": true
+    },
+    "docs:generate:oauth": {
+      "name": "docs:generate:oauth",
+      "command": "npm run docs:generate:oauth",
+      "runAtStart": false
+    },
+    "graphql:update": {
+      "name": "graphql:update",
+      "command": "npm run graphql:update",
+      "runAtStart": false
+    },
+    "graphql:updateV1": {
+      "name": "graphql:updateV1",
+      "command": "npm run graphql:updateV1",
+      "runAtStart": false
+    },
+    "graphql:updateV2": {
+      "name": "graphql:updateV2",
+      "command": "npm run graphql:updateV2",
+      "runAtStart": false
+    },
+    "lint": {
+      "name": "lint",
+      "command": "npm run lint",
+      "runAtStart": false
+    },
+    "lint:check": {
+      "name": "lint:check",
+      "command": "npm run lint:check",
+      "runAtStart": false
+    },
+    "lint:fix": {
+      "name": "lint:fix",
+      "command": "npm run lint:fix",
+      "runAtStart": false
+    },
+    "mailpit": {
+      "name": "mailpit",
+      "command": "npm run mailpit",
+      "runAtStart": false
+    },
+    "postinstall": {
+      "name": "postinstall",
+      "command": "npm run postinstall",
+      "runAtStart": false
+    },
+    "prettier": {
+      "name": "prettier",
+      "command": "npm run prettier",
+      "runAtStart": false
+    },
+    "prettier:check": {
+      "name": "prettier:check",
+      "command": "npm run prettier:check",
+      "runAtStart": false
+    },
+    "prettier:write": {
+      "name": "prettier:write",
+      "command": "npm run prettier:write",
+      "runAtStart": false
+    },
+    "script": {
+      "name": "script",
+      "command": "npm run script",
+      "runAtStart": false
+    },
+    "search": {
+      "name": "search",
+      "command": "npm run search",
+      "runAtStart": false
+    },
+    "sequelize": {
+      "name": "sequelize",
+      "command": "npm run sequelize",
+      "runAtStart": false
+    },
+    "start": {
+      "name": "start",
+      "command": "npm run start",
+      "runAtStart": false
+    },
+    "start:e2e": {
+      "name": "start:e2e",
+      "command": "npm run start:e2e",
+      "runAtStart": false
+    },
+    "start:e2e:server": {
+      "name": "start:e2e:server",
+      "command": "npm run start:e2e:server",
+      "runAtStart": false
+    },
+    "test:watch": {
+      "name": "test:watch",
+      "command": "npm run test:watch",
+      "runAtStart": false
+    },
+    "test": {
+      "name": "test",
+      "command": "npm run test",
+      "runAtStart": false
+    },
+    "test:update": {
+      "name": "test:update",
+      "command": "npm run test:update",
+      "runAtStart": false
+    },
+    "test:clean-db-snapshots": {
+      "name": "test:clean-db-snapshots",
+      "command": "npm run test:clean-db-snapshots",
+      "runAtStart": false
+    },
+    "test:update-db-snapshots": {
+      "name": "test:update-db-snapshots",
+      "command": "npm run test:update-db-snapshots",
+      "runAtStart": false
+    },
+    "test:clean": {
+      "name": "test:clean",
+      "command": "npm run test:clean",
+      "runAtStart": false
+    },
+    "test:generate": {
+      "name": "test:generate",
+      "command": "npm run test:generate",
+      "runAtStart": false
+    },
+    "test:graphql": {
+      "name": "test:graphql",
+      "command": "npm run test:graphql",
+      "runAtStart": false
+    },
+    "test:lib": {
+      "name": "test:lib",
+      "command": "npm run test:lib",
+      "runAtStart": false
+    },
+    "test:models": {
+      "name": "test:models",
+      "command": "npm run test:models",
+      "runAtStart": false
+    },
+    "test:payment-providers": {
+      "name": "test:payment-providers",
+      "command": "npm run test:payment-providers",
+      "runAtStart": false
+    },
+    "test:routes": {
+      "name": "test:routes",
+      "command": "npm run test:routes",
+      "runAtStart": false
+    },
+    "test:scripts": {
+      "name": "test:scripts",
+      "command": "npm run test:scripts",
+      "runAtStart": false
+    },
+    "test:sql": {
+      "name": "test:sql",
+      "command": "npm run test:sql",
+      "runAtStart": false
+    },
+    "ts-unused-exports": {
+      "name": "ts-unused-exports",
+      "command": "npm run ts-unused-exports",
+      "runAtStart": false
+    },
+    "type:check": {
+      "name": "type:check",
+      "command": "npm run type:check",
+      "runAtStart": false
+    },
+    "prepare": {
+      "name": "prepare",
+      "command": "npm run prepare",
+      "runAtStart": false
+    },
+    "lint-staged": {
+      "name": "lint-staged",
+      "command": "npm run lint-staged",
+      "runAtStart": false
+    }
+  }
+}
