@@ -1,4 +1,16 @@
 {
+  "database": {
+    "options": {
+      "dialectOptions": {
+        "ssl": {
+          "require": true,
+          "rejectUnauthorized": false
+        }
+      },
+      "logging": false
+    },
+    "readOnly": false
+  },
   "env": "development",
   "elasticSearch": {
     "url": "http://localhost:9200"
